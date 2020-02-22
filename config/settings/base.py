@@ -83,6 +83,8 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "stockgetweb.users.apps.UsersConfig",
+    "stockgetweb.crawl.apps.CrawlConfig",
+    "stockgetweb.stock.apps.StockConfig",
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
