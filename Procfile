@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath stockgetweb config.wsgi
+web: gunicorn config.wsgi --error-logfile ./gunicorn_error_log
